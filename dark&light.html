@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <button type="sumbit" id="Mode">Change Mode</button>
+  <script>
+    let element = document.getElementById("Mode");
+
+
+    let body = document.body;
+    element.addEventListener("click", function () {
+      body.style.backgroundColor = "red";
+    });
+
+    element.addEventListener("dblclick", function () {
+      body.style.backgroundColor = "green";
+    });
+    element.addEventListener("mouseover", function () {
+      body.style.backgroundColor = "purple";
+    });
+  </script>
+</body>
+
+</html>
